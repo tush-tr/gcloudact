@@ -1,3 +1,5 @@
+<img src="assets/C.png">
+
 ## What is Gcloudact ?
 **Gcloudact** is a Terraform module to automate the deployment and hosting process of your own runners on Google cloud to run jobs in your GitHub Actions workflows. It makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub.
 
