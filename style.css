@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+header {
+  text-align: center;
+  width: 100%;
+  box-shadow: -1px 0px 2px 2px #4285f4;
+  height: 250px;
+  margin-bottom: 19px;
+}
+.header-container {
+  width: 100%;
+}
+section {
+  background-color: #4285f4;
+  margin: -16px;
+  color: white;
+  padding: 20px;
+  font-family: "PT Sans", sans-serif;
+}
+.badges {
+  background-color: #4285f4;
+  padding: 20px;
+  text-align: center;
+}
+.about {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+}
+.what-is-gact {
+  font-family: "PT Sans", sans-serif;
+}
+.gactheading {
+  color: #f4f1f1;
+  border-bottom: 2px solid #ea4336;
+  width: 30%;
+  padding: 10px;
+}
+code{
+    background-color: black;
+    padding: 5px;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

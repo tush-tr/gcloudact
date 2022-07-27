@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GcloudAct</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="assets/C.png" />
+      </div>
+    </header>
+    <section class="badges">
+      <img src="https://img.shields.io/github/issues/tush-tr/gcloudact" />
+      <img src="https://img.shields.io/github/forks/tush-tr/gcloudact" />
+      <img src="https://img.shields.io/github/license/tush-tr/gcloudact" />
+      <img src="https://img.shields.io/github/stars/tush-tr/gcloudact" />
+      <a href="https://twitter.com/tush_tr604" target="blank"
+        ><img
+          src="https://img.shields.io/twitter/follow/tush_tr604?logo=twitter&style=flat"
+          alt="tush_tr604"
+      /></a>
+      <img
+        src="https://img.shields.io/github/languages/count/tush-tr/gcloudact"
+      />
+    </section>
+    <section class="about">
+      <p>
+        A Terraform module for hosting your own runner for CI/CD on Google Cloud
+        to run jobs in your GitHub Actions workflows.
+      </p>
+    </section>
+    <section class="what-is-gact">
+      <h1 class="gactheading">What is Gcloudact ?</h1>
+      Gcloudact is a Terraform module to automate the deployment and hosting
+      process of your own runners on Google cloud to run jobs in your GitHub
+      Actions workflows. It makes it easy to automate all your software
+      workflows, now with world-class CI/CD. Build, test, and deploy your code
+      right from GitHub.
+    </section>
+    <section class="">
+      <h1 class="gactheading">Why GcloudAct?</h1>
+      Gcloudact sets up a self-hosted runner on the cloud. Self-hosted runners
+      offer more control of hardware, operating system, and software tools than
+      GitHub-hosted runners provide. With self-hosted runners, you can choose to
+      create a custom hardware configuration with more processing power or
+      memory to run larger jobs, install software available on your local
+      network, and choose an operating system not offered by GitHub-hosted
+      runners.
+    </section>
+    <section class="pre">
+      <h1 class="gactheading">Prerequisites</h1>
+      Terraform and Gcloud Shell Ensure you're running scripts on gcloud
+      shell/Gcloud SDK.
+      <ul>
+        <li>Clone the repo of Module:</li>
+        <pre>
+                <code>git clone https://github.com/tush-tr/gcloudact</code>
+            </pre>
+      </ul>
+    </section>
+    <section class="ghtoken">
+      <h1 class="gactheading">Github Personal Access Token</h1>
+      The module requires Github personal access token for the admin access to
+      the repository and to configure the runner.
+    </section>
+    <section class="usage">
+        <h1 class="gactheading">Usage</h1>
+        <pre>> Update the values inside terraform.tfvars file for better experience.</pre>
+        Run the following commands to use the module:
+        <ul>
+            <li>To initialize Terraform</li>
+            <pre>
+                <code>terraform init</code>
+            </pre>
+            <li>To inspect the resources that will be created</li>
+            <pre>
+                <code>terraform plan</code>
+            </pre>
+            <li>To deploy the runner</li>
+            <pre>
+                <code>terraform apply</code>
+            </pre>
+            <li>To delete the runner</li>
+            <pre>
+                <code>terraform destroy</code>
+            </pre>
+        </ul>
+    </section>
+    <section class="maintainer">
+        <h1 class="gactheading">Maintainer</h1>
+        <a href="https://tush-tr.github.io/">
+            <img class="logo" src="assets/logo.jpeg" />
+            Tushar Rajpoot
+        </a>
+        
+    </section>
+    
+  </body>
+</html>
